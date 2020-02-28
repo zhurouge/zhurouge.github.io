@@ -1,0 +1,9 @@
+<footer id="footer">
+  <% if (theme.sidebar === 'bottom'){ %>
+    <%- partial('_partial/sidebar') %>
+  <% } %>
+	<div id="footer-info" class="inner">
+	  &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %> 
+	  - 微信公众号:猪肉分你一半
+	</div>
+</footer>
