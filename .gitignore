@@ -1,6 +1,7 @@
 .DS_Store
 Thumbs.db
-*.json
+package-lock.json
+db.json
 *.log
 node_modules/
 public/
