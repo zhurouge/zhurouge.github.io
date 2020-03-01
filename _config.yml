@@ -99,5 +99,7 @@ theme: jane
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:zhurouge/zhurouge.github.io.git
+  repo: 
+    github: git@github.com:zhurouge/zhurouge.github.io.git
+    coding: git@e.coding.net:zhurouge/zhurouge.git
   branch: master

@@ -1,9 +1,9 @@
 # Header
 menu:
   Home: /
-  Archives: /archives
-  #Tag: /tags
-  #Github: https://github.com/hejianxian
+  #Archives: /archives
+  白菜: /tags/baicai
+  猪肉: /tags/zhurou
 #rss: /atom.xml
 
 # Content
