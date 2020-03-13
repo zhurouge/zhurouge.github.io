@@ -1,7 +1,7 @@
 # Header
 menu:
   Home: /
-  #Archives: /archives
+  Archives: /archives
   白菜: /tags/baicai
   猪肉: /tags/zhurou
 #rss: /atom.xml
