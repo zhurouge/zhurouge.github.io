@@ -39,9 +39,7 @@
 {% endif %}
 
 {% if theme.footer.powered.enable %}
-  <div class="powered-by">{#
-  #}{{ __('footer.powered', '<a class="theme-link" target="_blank"' + nofollow + ' href="https://hexo.io">Hexo</a>') }}{% if theme.footer.powered.version %} v{{ hexo_env('version') }}{% endif %}{#
-#}</div>
+  <div class="powered-by"><a class="theme-link" target="_blank"' + nofollow + ' href="https://hello.iijoo.com/">首页</a></div>
 {% endif %}
 
 {% if theme.footer.powered.enable and theme.footer.theme.enable %}
@@ -49,11 +47,7 @@
 {% endif %}
 
 {% if theme.footer.theme.enable %}
-  <div class="theme-info">{#
-  #}{{ __('footer.theme') }} &mdash; {#
-  #}<a class="theme-link" target="_blank"{{ nofollow }} href="https://github.com/theme-next/hexo-theme-next">{#
-    #}NexT.{{ theme.scheme }}{#
-  #}</a>{% if theme.footer.theme.version %} v{{ version }}{% endif %}{#
+  <div class="theme-info"><a class="theme-link" target="_blank"{{ nofollow }} href="https://hello.iijoo.com/archives/">归档</a>{% if theme.footer.theme.version %} v{{ version }}{% endif %}{#
 #}</div>
 {% endif %}
 
